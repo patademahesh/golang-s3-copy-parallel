@@ -43,5 +43,9 @@ Usage of s3copy:
 
 # Example
 ```bash
-# s3copy -region=ap-southeast-1 -bucket=bucketName -baseDir=/path/to/source/directory/ -concurrency=300 -remoteDir=/destination/path/on/s3/bucket/
+# s3copy -region=ap-southeast-1 \
+      -bucket=bucketName \
+      -baseDir=/path/to/source/directory/ \
+      -concurrency=300 \
+      -remoteDir=/destination/path/on/s3/bucket/
 ```
