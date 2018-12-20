@@ -4,11 +4,11 @@ Copy folder recursively to aws S3 parallel
 # Pre-requisites
   1. Go version > 1.10
   2. AWS credentials
-    \# cat .aws/credentials
-    [default]
-    aws_access_key_id = <AWS_ACCESS_KEY>
-    aws_secret_access_key = <AWS_SECRET_ACCESS_KEY>
-    region = <DEFAULT_REGION>
+     `\# cat .aws/credentials`
+    `[default]`
+    `aws_access_key_id = <AWS_ACCESS_KEY>`
+    `aws_secret_access_key = <AWS_SECRET_ACCESS_KEY>`
+    `region = <DEFAULT_REGION>`
 
   3. Required go aws modules
      \# go get "github.com/aws/aws-sdk-go/aws"
