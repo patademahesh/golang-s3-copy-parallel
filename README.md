@@ -20,7 +20,7 @@ Copy folder recursively to aws S3 parallel
   \# cp s3copy /usr/bin/s3copy
 
 # Usage
-  \# s3copy --help
+  `$ s3copy --help
   Usage of s3copy:
     -baseDir string
           Directory to copy s3 contents to. (required)
@@ -31,7 +31,7 @@ Copy folder recursively to aws S3 parallel
     -region string
           Specify bucket region
     -remoteDir string
-          S3 Directory Basepath to copy contents to. (required)
+          S3 Directory Basepath to copy contents to. (required)`
 
 # Example
   \# s3copy -region=ap-southeast-1 -bucket=bucketName -baseDir=/path/to/source/directory/ -concurrency=300 -remoteDir=/destination/path/on/s3/bucket/
